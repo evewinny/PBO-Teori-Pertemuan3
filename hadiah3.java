@@ -14,9 +14,9 @@ public class hadiah3 {
 	
 	System.out.println("Nomor 2");
 	String nama, alamat;
+	String saudara = "Andry Thody";
 	String kota = "Makassar";
 	int umur;
-	int saudara = 2;
 	
 	System.out.print("Masukkan nama mu = ");
 	nama = masukan.nextLine();
@@ -24,8 +24,8 @@ public class hadiah3 {
 	alamat = masukan.nextLine();
 	System.out.print("Masukkan umur mu = ");
 	umur = masukan.nextInt();
-		System.out.println("Saudara =" + saudara);
-		System.out.println("Tinggal di " +kota);
+		System.out.println("Saudara =" + nama);
+		System.out.println("Tinggal di " +alamat);
 		System.out.println("Berumur "+umur+" tahun");
 	}
 }
