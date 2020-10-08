@@ -14,7 +14,6 @@ public class hadiah3 {
 	
 	System.out.println("Nomor 2");
 	String nama, alamat;
-	String saudara = "Andry Thody";
 	String kota = "Makassar";
 	int umur;
 	
